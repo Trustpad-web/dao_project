@@ -1,0 +1,34 @@
+Wed Jul 10 2024 03:11:12 GMT+0900 (Japan Standard Time)
+Token contract deployed at: 0x203D90E14ea758AFd4E7DC6D2C99Fa0749B67044 - sepolia - block number: 6278115
+npx hardhat verify --network sepolia 0x203D90E14ea758AFd4E7DC6D2C99Fa0749B67044 "sweet dream4 evox Token" "sweet dream4 evox Token" 0x33D33E756cB06b81fF0E861C0f071D3ae7E75021 0x33D33E756cB06b81fF0E861C0f071D3ae7E75021 0x33D33E756cB06b81fF0E861C0f071D3ae7E75021
+
+Wed Jul 10 2024 03:13:07 GMT+0900 (Japan Standard Time)
+Timelock contract deployed at: 0x0a9E2B02dC7266c5FA57d52eB1423Df7dF1ddE6D - sepolia - block number: 6278124
+npx hardhat verify --network sepolia --contract "@openzeppelin/contracts/governance/TimelockController.sol:TimelockController" --constructor-args arguments_0x0a9E2B02dC7266c5FA57d52eB1423Df7dF1ddE6D.js 0x0a9E2B02dC7266c5FA57d52eB1423Df7dF1ddE6D
+
+
+Wed Jul 10 2024 03:22:20 GMT+0900 (Japan Standard Time)
+Sablier contract deployed at: 0x4e5CB8686FA1cc7E32110201C03793ad3b47cc47 - sepolia - block number: 6278166
+npx hardhat verify --network sepolia 0x4e5CB8686FA1cc7E32110201C03793ad3b47cc47 "0x33D33E756cB06b81fF0E861C0f071D3ae7E75021" "0xC47577D5d3746D53B970829b02f56e436A65FBAA" "0x7a43F8a888fa15e68C103E18b0439Eb1e98E4301" "0x203D90E14ea758AFd4E7DC6D2C99Fa0749B67044" "3000000000000000000000"
+
+Wed Jul 10 2024 03:25:57 GMT+0900 (Japan Standard Time)
+Governor contract deployed at: 0x1De7cc5c6cd66424cfe66047B9Da879723D3DaE2 - sepolia - block number: 6278183
+npx hardhat verify --network sepolia 0x1De7cc5c6cd66424cfe66047B9Da879723D3DaE2 "sweet dream4 evox Dao" 0x0a9E2B02dC7266c5FA57d52eB1423Df7dF1ddE6D 0x4e5CB8686FA1cc7E32110201C03793ad3b47cc47 0x203D90E14ea758AFd4E7DC6D2C99Fa0749B67044 240 240 0
+
+Wed Jul 10 2024 14:53:00 GMT+0900 (Japan Standard Time)
+Token contract deployed at: 0x846CC3c8F05aE5c1733dF05e1b4546A319C8bbC0 - sepolia - block number: 6281306
+npx hardhat verify --network sepolia 0x846CC3c8F05aE5c1733dF05e1b4546A319C8bbC0 "sweet dream5 evox Token" "sweet dream5 evox Token" 0x33D33E756cB06b81fF0E861C0f071D3ae7E75021 0x33D33E756cB06b81fF0E861C0f071D3ae7E75021 0x33D33E756cB06b81fF0E861C0f071D3ae7E75021
+
+Wed Jul 10 2024 14:54:12 GMT+0900 (Japan Standard Time)
+Timelock contract deployed at: 0x01db1f75B8CA6ED8d1851A0C641967384479171f - sepolia - block number: 6281312
+npx hardhat verify --network sepolia --contract "@openzeppelin/contracts/governance/TimelockController.sol:TimelockController" --constructor-args arguments_0x01db1f75B8CA6ED8d1851A0C641967384479171f.js 0x01db1f75B8CA6ED8d1851A0C641967384479171f
+
+
+Wed Jul 10 2024 14:55:02 GMT+0900 (Japan Standard Time)
+Sablier contract deployed at: 0xE9B30d4421a5f741a184E47848d6d3038936e245 - sepolia - block number: 6281315
+npx hardhat verify --network sepolia 0xE9B30d4421a5f741a184E47848d6d3038936e245 "0x33D33E756cB06b81fF0E861C0f071D3ae7E75021" "0x1De7cc5c6cd66424cfe66047B9Da879723D3DaE2" "0x7a43F8a888fa15e68C103E18b0439Eb1e98E4301" "0x846CC3c8F05aE5c1733dF05e1b4546A319C8bbC0" "3000000000000000000000"
+
+Wed Jul 10 2024 14:57:43 GMT+0900 (Japan Standard Time)
+Governor contract deployed at: 0xbFA6F7817a7e08Ae798090987D113E08740dE460 - sepolia - block number: 6281328
+npx hardhat verify --network sepolia 0xbFA6F7817a7e08Ae798090987D113E08740dE460 "sweet dream5 evox Dao" 0x01db1f75B8CA6ED8d1851A0C641967384479171f 0xE9B30d4421a5f741a184E47848d6d3038936e245 0x846CC3c8F05aE5c1733dF05e1b4546A319C8bbC0 150 150 0
+
